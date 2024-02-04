@@ -1,6 +1,7 @@
 import sp_test as sp
 import os
-import stock_file_handler.create_stock_data_file as create_sf
+
+import create_stock_data_file as create_sf
 
 def get_stock_short_code():
     #integriere failsave!

@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./stockpy_prog/stock_file_handler"
+    ]
+}

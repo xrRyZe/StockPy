@@ -13,7 +13,7 @@ def create_stock_data_file(stock_short_code:str):
     data.to_csv(f'./stock_data/{stock_short_code}.csv')
     print(f"Daten von {stock_short_code} erfolgreich gespeichert.")
 
-create_stock_data_file('AAPL')
+# create_stock_data_file('AAPL')
 
 
 
