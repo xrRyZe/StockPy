@@ -11,7 +11,7 @@ def get_stock_short_code():
 def main():
 
     print('\n')
-    stock_short_code:str = get_stock_short_code().capitalize()
+    stock_short_code:str = get_stock_short_code().upper()
     print(f'shortcode is {stock_short_code}')
 
     if os.path.isfile(f"./stock_data/{stock_short_code}.csv"):
