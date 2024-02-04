@@ -12,4 +12,4 @@ end_date = '2024-01-01'
 data = yf.download(ticker_symbol, start=start_date, end=end_date)
 
 # Speichern der Daten in eine CSV-Datei
-data.to_csv('AAPL.csv')
+data.to_csv('./')
