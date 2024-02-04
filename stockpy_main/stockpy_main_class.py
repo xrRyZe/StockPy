@@ -30,3 +30,4 @@ print(f"Genauigkeit des neuronalen Netzes: {accuracy}")
 # Verwenden des Modells, um Handelssignale zu generieren
 predicted_signals = model.predict(X_test_scaled)
 print("Vorhergesagte Handelssignale:", predicted_signals)
+
