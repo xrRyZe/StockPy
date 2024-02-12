@@ -2,7 +2,10 @@ import sp_test as sp
 import os
 
 import create_stock_data_file as create_sf
-import stockpy_prog.handler.file_handler.file_handler as dt
+import stockpy_prog.handler.file_handler as dt
+
+STOCK_DATA_INFO = "./stock_list/stock_data_info.json" #constant for path to stock data info file
+
 
 def get_stock_short_code():
     #integriere failsave!
@@ -12,7 +15,7 @@ def get_stock_short_code():
 def check_for_valid_imput():
     
     is_valid:bool = False
-    short_code_db:list = []
+    short_codes:list = get_stock_short_codes()
 
     while not is_valid:
         
