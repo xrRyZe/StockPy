@@ -17,7 +17,7 @@ def read_json_file_as_dict(path:str):
     return data
 
         #specific key
-def read_json_file_as_dict(path:str, key:str):
+def read_json_file_as_dict_wk(path:str, key:str): #wk = with key
     with open(path, 'r') as f:
         data:dict = json.load(f)
     return data[key]

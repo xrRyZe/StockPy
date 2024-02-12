@@ -1,0 +1,9 @@
+{
+    "AAPL": {
+        "retreavel_date": "2024-02-04",
+        "retreavel_time": "15:00:00",
+        "name": "Apple Inc.",
+        "symbol": "AAPL",
+        "path": "./stock_data/AAPL.csv"
+    }
+}
